@@ -79,3 +79,9 @@ This command will automatically configure your Apache server to enable HTTPS.
 ## Verify the SSL Certificate
 
 Once the SSL certificate is deployed, visit your domain (e.g., https://exam.omoruyiosakue.tech) and check for the secure connection indicated by the padlock icon in the address bar.
+
+# Project Landing Page
+
+**Website**: [omoruyiosakue.tech](https://exam.omoruyiosakue.tech)  
+**IP Address**: [3.80.25.129](http://3.80.25.129/)  
+
