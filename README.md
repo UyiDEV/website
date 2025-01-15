@@ -1,4 +1,4 @@
-## AltSchool Examination Documentation
+# AltSchool Examination Documentation
 
 This documentaion provides a guide to:
 1. Setting up an Ubuntu EC2 instance for web hosting.
