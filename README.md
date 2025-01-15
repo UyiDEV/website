@@ -85,4 +85,5 @@ Once the SSL certificate is deployed, visit your domain (e.g., https://exam.omor
 **Website**: [omoruyiosakue.tech](https://exam.omoruyiosakue.tech)  
 **IP Address**: [3.80.25.129](http://3.80.25.129/)  
 
-![Alt](/assets/screenshot.png "Website")
+Web-server without SSL ![Alt](/assets/screenshot.png "Website")
+Web-server with DNS and SSL ![Alt](/assets/screenshot2.png "Website with SSL")
