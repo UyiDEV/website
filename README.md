@@ -8,7 +8,7 @@ This documentaion provides a guide to:
 
 Designed as more than just a tutorial, this project serves as a complete toolkit for creating a secure, scalable, and reliable web server aligned with modern web standards. Whether you're new to web hosting or an experienced developer, this repository will enhance your skills and deepen your understanding of hosting and web security.
 
-## Prerequisites
+### Prerequisites
 
 Before diving into this project, here’s what you need to know to ensure a smooth experience:
 1.  Basic Linux Command Skills: Familiarity with essential Linux commands will help you navigate and manage the server effectively.
@@ -25,7 +25,7 @@ With these basics in place, you’re all set to get started!
 5. Under the network settings, enable **HTTP** and **HTTPS** traffic from the internet.
 6. Click **Launch Instance**, and your instance will be up and running.
 
-## Part 2: Installing Apache2 Web Server
+## Step 2: Installing Apache2 Web Server
 
 1. SSH into your instance using your preferred terminal, whether it’s **Gitbash**, **Visual Studio Code**, or **Termius**. Your instance should now be connected.
    
@@ -42,7 +42,7 @@ With these basics in place, you’re all set to get started!
    sudo systemctl status apache2
    ```
 
-## Part 3: Clone the Repository and Assign the Required Permissions
+## Step 3: Clone the Repository and Assign the Required Permissions
 
 1. Clone the repository containing your HTML, CSS, and other files using `git clone`.
 2. Verify the files with `ls` and navigate into the cloned repository.
@@ -54,12 +54,12 @@ With these basics in place, you’re all set to get started!
 8. Enable the new site configuration with `a2ensite`.
 9. Reload, restart, start, and check Apache2 status using `systemctl`.
 
-## Part 4: Verify IP and Configure HTTPS with a Free SSL Certificate
+## Step 4: Verify IP and Configure HTTPS with a Free SSL Certificate
 
 1. Verify the cloned webpage by copying the IP address of your instance and pasting it into a browser.
 2. Create a domain for your webpage and connect it to your instance’s IP address (e.g., **exam.omoruyiosakue.tech**).
 
-## Set up HTTPS using a free SSL certificate from Let’s Encrypt
+### Set up HTTPS using a free SSL certificate from Let’s Encrypt
 
 1. Install the necessary packages:
 
@@ -76,11 +76,11 @@ With these basics in place, you’re all set to get started!
 
 This command will automatically configure your Apache server to enable HTTPS.
 
-## Verify the SSL Certificate
+### Verify the SSL Certificate
 
 Once the SSL certificate is deployed, visit your domain (e.g., https://exam.omoruyiosakue.tech) and check for the secure connection indicated by the padlock icon in the address bar.
 
-# Project Landing Page
+### Project Landing Page
 
 **Website**: [omoruyiosakue.tech](https://exam.omoruyiosakue.tech)  
 **IP Address**: [3.80.25.129](http://3.80.25.129/)  
